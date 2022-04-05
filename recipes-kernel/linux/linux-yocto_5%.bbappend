@@ -1,4 +1,4 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/linux-mvista:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/linux-yocto:"
 SRC_URI += "file://defconfig"
 
 COMPATIBLE_MACHINE:x86-generic-64 = "x86-generic-64"
