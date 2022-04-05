@@ -10,11 +10,11 @@ Dependencies
 This layer depends on:
 
   URI: git://git.openembedded.org/bitbake
-  branch: 1.36 
+  branch: 2.0.0
 
   URI: git://git.openembedded.org/openembedded-core
   layers: meta
-  branch: rocko
+  branch: kirkstone
 
 Patches
 =======
