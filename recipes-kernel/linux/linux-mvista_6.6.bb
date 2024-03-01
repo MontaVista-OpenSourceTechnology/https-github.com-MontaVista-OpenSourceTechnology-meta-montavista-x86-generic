@@ -15,7 +15,7 @@ S = "${WORKDIR}/git"
 
 LINUX_VERSION = "6.6"
 KERNEL_VERSION_SANITY_SKIP="1"
-PV = "${LINUX_VERSION}+git${SRCPV}"
+PV = "${LINUX_VERSION}+git"
 
 SRC_URI = "${MV_KERNEL_TREE};branch=${MV_KERNEL_BRANCH};name=machine \
            ${MV_KERNELCACHE_TREE};type=kmeta;name=meta;branch=${MV_KERNELCACHE_BRANCH};destsuffix=${KMETA}"
